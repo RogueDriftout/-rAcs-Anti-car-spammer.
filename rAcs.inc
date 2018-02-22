@@ -73,7 +73,7 @@ public OnPlayerDisconnect(playerid, reason)
 	KillTimer(AcsCheckTimer[playerid]);
 
 		#if defined acs_OnPlayerDisconnect
-	return acs_OnPlayerDisconnect(playerid, reason)
+	return acs_OnPlayerDisconnect(playerid, reason);
 		#else
 	return 1;
 		#endif
