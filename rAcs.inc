@@ -120,19 +120,19 @@ public OnVehicleStreamOut(vehicleid, forplayerid)
 #endif
 
 #if defined _ALS_OnPlayerConnect
-  #undef _ALS_OnPlayerConnect
+  #undef OnPlayerConnect
 #else
     #define _ALS_OnPlayerConnect
 #endif
 
 #if defined _ALS_OnPlayerDisconnect
-  #undef _ALS_OnPlayerDisconnect
+  #undef OnPlayerDisconnect
 #else
     #define _ALS_OnPlayerDisconnect
 #endif
 
 #if defined _ALS_OnVehicleStreamIn
-  #undef _ALS_OnVehicleStreamIn
+  #undef OnVehicleStreamIn
 #else
     #define _ALS_OnVehicleStreamIn
 #endif
